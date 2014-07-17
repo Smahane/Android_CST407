@@ -1,0 +1,11 @@
+package com.cst.homeWork1;
+
+public class Main {
+	
+	private static anotherClass ac;
+	public static void main(){
+		ac.displayString();
+	}
+	
+
+}

@@ -1,0 +1,8 @@
+package com.cst.homeWork1;
+
+public class anotherClass {
+
+	public void displayString(){
+		System.out.println("Hello World");
+	}
+}

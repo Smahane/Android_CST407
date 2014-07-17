@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cst.homework.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180px"
+        android:layout_height="260dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="colorMe"
+        android:paddingBottom="@dimen/abc_action_bar_default_height"
+        android:paddingLeft="@dimen/abc_action_bar_icon_vertical_padding"
+        android:scaleType="center"
+        android:text="Color Me" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="clickMe"
+        android:text="Click Me" />
+
+</RelativeLayout>
+
