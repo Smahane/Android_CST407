@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HomeWork2_Resources</string>
+    <string name="portrait">I Feel so tall!</string>
+    <string name="action_settings">Settings</string>
+    <string name="land_txt">the world looks flat</string> 
+    <string name="EiffelTowerImage">Eiffel Tower</string>
+
+</resources>
