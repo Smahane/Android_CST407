@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.homework3_persistence.GenieActivity$PlaceholderFragment" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+     <ToggleButton
+        android:id="@+id/btnWish1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center" 
+        android:textOn="@string/wish1"
+        android:textOff="@string/wish1"
+        android:onClick="ButtonOnClick" />
+
+    <ToggleButton
+        android:id="@+id/btnWish2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textOn="@string/wish2" 
+        android:textOff="@string/wish2"
+        android:onClick="ButtonOnClick" />
+
+    <ToggleButton
+        android:id="@+id/btnWish3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textOn="@string/wish3"
+        android:textOff="@string/wish3"
+        android:onClick="ButtonOnClick" />
+
+</RelativeLayout>
