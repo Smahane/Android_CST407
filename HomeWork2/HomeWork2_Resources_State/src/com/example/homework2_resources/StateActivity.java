@@ -19,7 +19,7 @@ public class StateActivity extends Activity{
 	@Override
 	protected void onCreate (Bundle savedIstanceState){
 		super.onCreate(savedIstanceState);
-		setContentView(R.layout.activity_state);
+		setContentView(R.layout.fragment_state);
 		
 		txtView = (TextView) findViewById(R.id.textView2);
 		generateRandom();
